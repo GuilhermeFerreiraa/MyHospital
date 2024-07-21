@@ -58,8 +58,6 @@ export default function ConfirmCode() {
 			ToastMessage.update(toast, "Código enviado com sucesso!", "Enviando código de recuperação..")
 			await resendCode(email);
 		} catch (err) {
-			console.log("confirm-code error: ", err);
-
 			ToastMessage.error(toast, "Falha ao enviar o código")
 		}
 	}

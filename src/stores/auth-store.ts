@@ -46,29 +46,27 @@ export const useAuthStore = create(
 						isAuthenticated: true,
 					});
 
-					console.log("User signed in:", userData);
 
 					Haptics.notificationAsync(
 						Haptics.NotificationFeedbackType.Success
 					);
 
 				} catch (err: any) {
-					console.log("signIn-error", err);
 					Haptics.notificationAsync(
 						Haptics.NotificationFeedbackType.Error
 					);
 
 					if (err?.code === "UserNotFoundException") {
 						throw new Error('Usuário não possui cadastro.');
-					} 
+					}
 					else if (err?.code === "NotAuthorizedException") {
 						throw new Error('E-mail ou senha incorretos. Tente novamente!');
-					} 
-					
+					}
+
 					else if (err?.code === "UserNotConfirmedException") {
 						throw new Error('Usuário não confirmado. Fale com o Suporte.');
-					} 
-					
+					}
+
 					else {
 						throw new Error(err.code);
 					}
@@ -88,15 +86,12 @@ export const useAuthStore = create(
 
 					set({ user: userData });
 
-					console.log("User signed up:", userData);
 
 					Haptics.notificationAsync(
 						Haptics.NotificationFeedbackType.Success
 					);
 
 				} catch (err: any) {
-					console.log('sign-up error:', err);
-
 					Haptics.notificationAsync(
 						Haptics.NotificationFeedbackType.Error
 					);
@@ -115,7 +110,6 @@ export const useAuthStore = create(
 					);
 
 				} catch (err: any) {
-					console.log("confirmAccount-error", err);
 					Haptics.notificationAsync(
 						Haptics.NotificationFeedbackType.Error
 					);
@@ -136,7 +130,6 @@ export const useAuthStore = create(
 					);
 
 				} catch (err: any) {
-					console.log("resendCode-error", err);
 					Haptics.notificationAsync(
 						Haptics.NotificationFeedbackType.Error
 					);
@@ -153,7 +146,6 @@ export const useAuthStore = create(
 					await Auth.signOut();
 					set({ user: null, isAuthenticated: false });
 				} catch (err) {
-					console.log("signOut-error", err);
 				}
 			},
 			loadUser: async () => {

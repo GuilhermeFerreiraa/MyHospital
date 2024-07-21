@@ -1,6 +1,20 @@
 {
-  "extends": "expo/tsconfig.base",
-  "compilerOptions": {
-    "strict": true
+ "extends": "expo/tsconfig.base",
+ "compilerOptions": {
+  "strict": true,
+  "esModuleInterop": true,
+  "moduleResolution": "Node",
+  "paths": {
+   "@/*": ["./src/*"]
   }
+ },
+ "include": [
+  "**/*.js",
+  "**/*.ts",
+  "**/*.tsx",
+  "src/aws-exports.js",
+  ".expo/types/**/*.ts",
+  "expo-env.d.ts",
+  "jest.config.js__"
+ ]
 }

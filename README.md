@@ -42,7 +42,7 @@ yarn global add @aws-amplify/cli
 
 ## Executar a aplicação
 ```bash
-  npm run start
+  npm run dev
 ```
 
 - Testes unitários com Jest:

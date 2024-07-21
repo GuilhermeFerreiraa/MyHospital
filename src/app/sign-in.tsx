@@ -12,7 +12,7 @@ import { useToast } from "react-native-toast-notifications";
 import colors from "tailwindcss/colors";
 import * as Yup from 'yup';
 
-const img_nourse_ = require('@/assets/icons/nourse.png');
+const img_nurse_ = require('@/assets/icons/nurse.png');
 
 const SignInSchema = Yup.object().shape({
 	email: Yup.string()
@@ -59,7 +59,7 @@ export default function SignIn() {
 				<View className="flex-1 flex-col items-center justify-center">
 					<Image
 						resizeMode="contain"
-						source={img_nourse_}
+						source={img_nurse_}
 						className="w-32 h-32"
 					/>
 					<Animated.View

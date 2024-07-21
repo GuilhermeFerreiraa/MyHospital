@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Job /> deve renderizar corretamente com as props fornecidas 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "borderBottomLeftRadius": 12,
+      "borderBottomRightRadius": 12,
+      "borderTopLeftRadius": 12,
+      "borderTopRightRadius": 12,
+      "flexDirection": "row",
+      "marginBottom": 8,
+      "opacity": 1,
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 8,
+      "width": "100%",
+    }
+  }
+  testID="job-component"
+>
+  <Image
+    source={
+      {
+        "uri": "https://example.com/thumbnail.jpg",
+      }
+    }
+    style={
+      [
+        {
+          "width": 80,
+        },
+        {
+          "height": 80,
+        },
+        {
+          "borderBottomLeftRadius": 8,
+          "borderBottomRightRadius": 8,
+          "borderTopLeftRadius": 8,
+          "borderTopRightRadius": 8,
+        },
+      ]
+    }
+    testID="job-thumbnail"
+  />
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "marginLeft": 12,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignItems": "center",
+          },
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          [
+            {
+              "color": "#0f172a",
+            },
+            {
+              "width": "100%",
+            },
+            {
+              "flexBasis": "0%",
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            {
+              "fontFamily": "Inter_500Medium",
+            },
+            {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+          ]
+        }
+        testID="job-title"
+      >
+        Hospital Fort Jettborough
+      </Text>
+    </View>
+    <Text
+      style={
+        [
+          {
+            "color": "#1e293b",
+          },
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "lineHeight": 20,
+          },
+          {
+            "marginTop": 2,
+          },
+        ]
+      }
+      testID="job-description"
+    >
+      Hospital Clínico localizado na região Southwest de Lake Terrence.
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "#23b0ba",
+          },
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "lineHeight": 20,
+          },
+          {
+            "marginTop": 2,
+          },
+        ]
+      }
+      testID="job-number-role"
+    >
+      5x vagas disponíveis
+    </Text>
+  </View>
+</View>
+`;

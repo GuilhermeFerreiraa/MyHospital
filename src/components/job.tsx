@@ -37,8 +37,8 @@ const Job = forwardRef<TouchableOpacity, JobProps>(
 					<Text className="text-slate-800 text-sm leading-5 mt-0.5" testID="job-description">
 						{data.description}
 					</Text>
-					<Text className="text-primary text-sm leading-5 mt-0.5" testID="job-description">
-						{data.job_quantity}x vagas disponíveis
+					<Text className="text-primary text-sm leading-5 mt-0.5" testID="job-number-role">
+						{`${data.job_quantity}x vagas disponíveis`}
 					</Text>
 				</View>
 			</TouchableOpacity>

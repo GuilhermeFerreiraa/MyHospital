@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component renders correctly with given data 1`] = `
+<View
+  collapsable={false}
+  jestAnimatedStyle={
+    {
+      "value": {},
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#fff",
+      "borderBottomLeftRadius": 12,
+      "borderBottomRightRadius": 12,
+      "borderTopLeftRadius": 12,
+      "borderTopRightRadius": 12,
+      "marginBottom": 8,
+      "marginTop": 8,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          {
+            "fontFamily": "Inter_600SemiBold",
+          },
+          {
+            "color": "#2E4A71",
+          },
+        ]
+      }
+    >
+      Enfermeiro
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "marginLeft": -8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "Inter_500Medium",
+          },
+          {
+            "color": "#2E4A71",
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+          ],
+        ]
+      }
+    >
+      Data:
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "Inter_400Regular",
+          },
+          {
+            "color": "#374151",
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+          ],
+        ]
+      }
+    >
+      18 de abr. de 2025
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "marginLeft": -8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "Inter_500Medium",
+          },
+          {
+            "color": "#2E4A71",
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+          ],
+        ]
+      }
+    >
+      Horário:
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "Inter_400Regular",
+          },
+          {
+            "color": "#374151",
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+          ],
+        ]
+      }
+    >
+      16:53h
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "marginLeft": -8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "Inter_500Medium",
+          },
+          {
+            "color": "#2E4A71",
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+          ],
+        ]
+      }
+    >
+      Turno:
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "fontSize": 14,
+            "lineHeight": 20,
+          },
+          {
+            "fontFamily": "Inter_400Regular",
+          },
+          {
+            "color": "#374151",
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+          ],
+        ]
+      }
+    >
+      Noturno
+    </Text>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontSize": 14,
+          "lineHeight": 20,
+        },
+        {
+          "fontFamily": "Inter_400Regular",
+        },
+        {
+          "color": "#374151",
+        },
+      ]
+    }
+  >
+    Experiência de no mínimo 1 ano em clínicas.
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2E4A71",
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+        "flexDirection": "row",
+        "height": 48,
+        "justifyContent": "center",
+        "marginTop": 16,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+    testID="apply-button"
+  >
+    <Text />
+    <Text
+      style={
+        [
+          {
+            "color": "#fff",
+          },
+          {
+            "fontFamily": "Inter_600SemiBold",
+          },
+          {
+            "textAlign": "center",
+          },
+          {
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          {
+            "marginLeft": 8,
+            "marginRight": 8,
+          },
+        ]
+      }
+    >
+      Candidatar-me
+    </Text>
+  </View>
+</View>
+`;

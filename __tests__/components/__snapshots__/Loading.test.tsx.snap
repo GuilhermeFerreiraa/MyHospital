@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Component renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexBasis": "0%",
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      {
+        "position": "absolute",
+      },
+      {
+        "width": "100%",
+      },
+      {
+        "height": "100%",
+      },
+      {
+        "opacity": 0.75,
+      },
+      {
+        "zIndex": 50,
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "backgroundColor": "#23b0ba",
+      },
+    ]
+  }
+  testID="loading-view"
+>
+  <ActivityIndicator
+    color="#fff"
+    size={24}
+    testID="loading-indicator"
+  />
+</View>
+`;

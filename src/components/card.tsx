@@ -97,6 +97,7 @@ const Card = ({ data }: JobProps) => {
 				{data.candidacy_sent && (
 
 					<TouchableOpacity
+						testID="cancel-button"
 						onPress={() => handleCancelAplicationJob(data)}
 						className="bg-red-400 w-8 h-8 rounded-md flex-row items-center justify-center"
 					>
@@ -135,7 +136,7 @@ const Card = ({ data }: JobProps) => {
 			<Text className="text-sm font-body text-gray-700">{data.requirement}</Text>
 
 			{!data.candidacy_sent ? (
-				<Button className="bg-secondary w-full mt-4" onPress={() => handleApplyJob(data)}>
+				<Button testID="apply-button" className="bg-secondary w-full mt-4" onPress={() => handleApplyJob(data)}>
 					<Button.Icon>
 						<AntDesign name="pluscircleo" size={24} color={colors.white} />
 					</Button.Icon>

@@ -6,7 +6,7 @@ Desenvolvido com Expo, Typescript, Aws Amplify e um Mockdata que simula o retorn
 - Proposta:
 A proposta do app é permitir com que enfermeiros possam se candidatar a turnos  em unidades de saúde. Tentei trazer uma dinâmica mais visual, com animações durante as transições, e uma autenticação básica. O aplicativo possui uma página inicial onde é listado todas as unidades de saúde que possuem turnos disponíveis, onde os enfermeiros podem se candidatar.
 
-Devido ao tempo de entrega e as prioridades precisei selecionar apenas 3 componentes para realizar os testes unitários com Jest (Header, Button e Card). Abaixo está a instrução de como rodar os testes, junto com as outras informações necessárias para rodar o projeto.
+Devido ao tempo de entrega e as prioridades precisei selecionar apenas 3 componentes para realizar os testes unitários com Jest (Job, Loading e Card). Abaixo está a instrução de como rodar os testes, junto com as outras informações necessárias para rodar o projeto.
 
 ## Instalação
 
